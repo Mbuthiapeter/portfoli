@@ -5,3 +5,60 @@
 .resume-wrapper-inner {
   max-width: 1000px;
 }
+.text-center {
+  text-align: center !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.text-start {
+  text-align: left !important;
+}
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+}
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.resume-header {
+  background: #434E5E;
+  color: rgba(255, 255, 255, 0.9);
+  height: 220px;
+}
+.resume-header .picture {
+  width: 220px;
+}
+.resume-header .name {
+  font-size: 2.25rem;
+  letter-spacing: 0.175rem;
+  font-weight: 900;
+}
+
+.resume-header .title {
+  font-size: 1.5rem;
+}
+
+.resume-header a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.resume-header a:hover {
+  color: white;
+}
+@media (max-width: 767.98px) {
+  .resume-wrapper {
+    padding-top: 0;
+  }
+  .resume-header {
+    height: auto;
+  }
+  .resume-header .picture {
+    width: 120px;
+    border-radius: 4px;
+  }
+}
