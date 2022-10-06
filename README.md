@@ -1,4 +1,4 @@
-# portfoli
+# portfolio
 My portfolio, 05/10/2022
 Contributors:
 - Mbuthia Peter
